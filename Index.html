@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>htmlregistrationform</title>
+        </head>
+        <body>
+            <fieldset>
+                <legend>Application form</legend>
+      <table>
+        <tr>
+            <td>Full name</td>
+           <td> <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="textbox"></td>
+        </tr>
+              <tr>  <td>Gender</td>
+                <td><input type="radio">Male<input type="radio">Female</td>
+               </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td><select><option>--India--</option></select></td>
+                   </tr>
+                    <tr>
+                        <td>Skills</td>
+                        <td><input type="checkbox">Asp.Net<input type="checkbox">jQuerry<br><input type="checkbox">MVC<input type="Checkbox">Sql server</td>
+                       </tr>
+                        <tr>
+                            <td>Post Applying for</td>
+                            <td><input type="radio">Trainee<input type="radio">Software Engineer<br><input type="radio">Team Leader<input type="radio">Project manager</td>
+                         </tr>  
+                          <tr>
+                                <td>Upload Resume</td>
+                             <td> <input type="file"></td>
+                          </tr>
+                            <tr>
+                                <td>Paste your resume</td>
+                               <td> <textarea></textarea></td>
+                            </tr>
+                               <tr>
+                                <td><input type="checkbox">Notify me the status the Email</td>
+                               </tr>
+                                  <tr>  <td><input type="radio"> I agree to terms & Conditions</td>
+                                  </tr>
+                                   <tr>
+                                        <td><input type="button" value="submit"> <input type="button" value="Reset"></td>
+                                    </tr>
+                                
+
+      </table>
+      </fieldset>
+        </body>
+</html>
